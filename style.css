@@ -20,7 +20,10 @@
     src: url("RobotoSlab.ttf") format("truetype");
     }
 
-section {
+      @font-face {
+    font-family: "poppins-semibold";
+    src: url("poppins-semibold.ttf") format("truetype");
+    }section {
     background: #C2EFD4;
     height: 100vh;
     
@@ -295,7 +298,7 @@ header {
     justify-items: center;
     align-content: start;
     min-width: 0;
-    padding: 8px 0;
+    padding: 0 0;
 }
 
 .card img {
@@ -314,4 +317,93 @@ header {
 .banner img {
 height: 100%;
 width: 100%;
+padding: 100px 100px;
+}
+
+
+
+
+.hero4 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 70px;
+    text-align: center;
+}
+
+.hero-text4 h1 {
+    font-size: 40px;
+    font-family: "RobotoSlab";
+    color: #224F34;
+    line-height: 100%;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+}
+
+.hero-text4 p {
+    font-size: 14px;
+    font-family: "Poppins-Medium";
+    color: #224F34;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 43px;
+    margin: 0 176px;
+}
+
+
+.product4 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    align-content: start;
+    min-width: 0;
+    color: #373737;
+
+}
+
+.product4 p {
+  font-family: "Poppins-Medium";
+  color: #373737;
+  font-size: 15px;
+  max-width: 280px;
+}
+.product4 img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 25px;
+
+}
+
+
+.product4 h3 {
+    font-family: "Poppins-Medium";
+    font-size: 24px;
+    font-family: "poppins-semibold";
+    font-weight: normal;
+    color:#373737;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.block4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+.block4 p {
+    font-family: "Poppins-Medium";
+    font-size: 13px;
+    color: #454545;
+    margin: 0;
+    align-self: center;
 }
